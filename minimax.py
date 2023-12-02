@@ -52,7 +52,7 @@ def terminal(s) -> "tuple[bool, int | None]":
     return (False, None)
 
 
-def minimax(tab, max, aux):
+def minimax(tab, max):
     t = terminal(tab)
     if t[0]:
         return t[1]

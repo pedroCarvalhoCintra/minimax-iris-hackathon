@@ -1,4 +1,4 @@
-def actions(s, player):
+def actions(s, player) -> "list[tuple]":
     """
     s = game state;
 
